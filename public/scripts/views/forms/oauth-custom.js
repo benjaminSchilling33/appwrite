@@ -16,6 +16,14 @@
           "keyID": "oauth2AppleKeyId",
           "teamID": "oauth2AppleTeamId",
           "p8": "oauth2AppleP8"
+        },
+        "Keycloak": {
+          "clientId": "oauth2KeycloakClientId",
+          "clientSecret" : "oauth2KeycloakClientSecret",
+          "authEndpoint": "oauth2KeycloakAuthEndpoint",
+          "tokenEndpoint": "oauth2KeycloakTokenEndpoint",
+          "userInfoEndpoint": "oauth2KeycloakUserInfoEndpoint",
+          "endSessionEndpoint": "oauth2KeycloakEndSessionEndpoint"
         }
       }
       let provider = element.getAttribute("data-forms-oauth-custom");
